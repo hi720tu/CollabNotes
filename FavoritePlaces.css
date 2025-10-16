@@ -1,0 +1,16 @@
+.taj-mahal-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.bg-image {
+    background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-static-website/towerbg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.taj-mahal-image {
+    height: 100px;
+    width: 80px;
+}

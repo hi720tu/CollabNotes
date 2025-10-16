@@ -1,0 +1,34 @@
+.h-center {
+    text-align: center;
+}
+
+.font-style {
+    font-family: "Roboto";
+}
+
+.bg-image {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/ocean.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.button {
+    background-color: #25b1cc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+.tourism-card {
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
