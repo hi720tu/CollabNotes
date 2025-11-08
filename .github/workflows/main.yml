@@ -28,6 +28,13 @@ jobs:
       - name: Build
         run: npm run build --if-present
 
+      - name: Upload production build
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: dist
+
       - name: Install ngrok
         run: | 
           npm install -g ngrok
@@ -43,12 +50,3 @@ jobs:
 
       - name: Keep alive
         run: sleep 10m
-
-
-
-      - name: Upload production build
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build
-          path: dist
